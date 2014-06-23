@@ -61,12 +61,16 @@ public class TwitterListener implements StatusListener, Subject {
 
     @Override  // implementing method defined in Subject interface
     public boolean registerObserver(Observer observer, String track) {
-        boolean result = false;
+        boolean result;
 
         Set<String> set = new HashSet<>();
         set.add(track);
 
-        if (!mapObservers.containsKey(observer)){
+        if (mapObservers.containsKey(observer) && !mapObservers.get(observer).contains(track)){
+            mapObservers.get(observer).add(track);
+            result = true;
+        }
+        else {
             mapObservers.put(observer, set);
             result = true;
         }
