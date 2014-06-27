@@ -1,7 +1,12 @@
 package abstractfactory;
 
 public interface PizzaIngredientFactory {
- 
-	// TODO - add method signatures
- 
+
+    Dough createDough();
+    Sauce createSauce();
+    Cheese createCheese();
+    Clams createClam();
+    Pepperoni createPepperoni();
+    Veggies[] createVeggies();
+
 }

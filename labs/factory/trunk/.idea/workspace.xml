@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="b0a69e3e-fc9c-4cee-9e9a-183c5b6f67f5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\format" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\00\003f6fc6942b4c92810cc44ea90fd354d819d5d6.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\05\050b44fb5db21682edbbe49444abe5670a1d9fbb.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\09\09f725f5d542383b652195bff4837cf1a100791c.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\0c\0cdd9f6cd8591ed60dc679e8aeeea80ca92831a5.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\16\163cdb63f926a446eff45a2c0014ded5bb79d409.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\18\18feae2ff01ad6a238ef2bfef4f88bbfeb5a326b.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\1b\1ba2e5ac993bc530dfbc72a977adcfdb1407ad09.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\34\341acabfa59006c55b9d47b6a00ff6f0464c09f3.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\37\3787c187c1a54608b3f096ec98037c0aaf9e1016.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\38\38ba70a4abe16b775c30f5bb5b6cf147544d7cec.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\47\476076b633930396498daa6cb4face720a867ad7.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\51\51769c5f13b9c9e2de52a48f9792802a344b84db.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\51\517eb1b6c498ce75a2d3f7ad9213deb8467fc453.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\52\5243f3ecf41cdd59f33917c9eebe75108267be81.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\55\554c53f38ece7ec760c248655f904b56065ce360.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\55\556f03ff4dd243880633b158f1149e05fc5315ea.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\5d\5d01b2422f7130693649c3732e89c991d97ccca0.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\5f\5f4d436fee6f9ad65d06617c88b6bce5b8687126.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\63\63745ffdf24cfe799133e2dad256815e77cb54a1.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\6a\6a0bf832caa2e04461fc2b03c359b1bbfe8fef29.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\74\740773605d7a93fab0e15bdfdd282015e37d2129.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\78\7851a9572d2e174238b6eff561133dc7c561cd00.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\7c\7c04c6bdcb4d19199dfa55131ec03bd14ce6b3ec.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\7c\7c063e7df8a0c65040b7a458f3016a9ea5e58abf.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\7e\7e7b5107a34020a1939c626e780abf3a5f1bbcfd.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\87\87110409388281a443b75b84ec8d5965fa217a13.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\88\8870bb3caf9a6b6dbb81c7f815883a64a4ee6434.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\89\8903411d472fbe1086ce2279f5d9cfd9b167c7fa.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\8c\8c3b4bed09ac56ffe7edcc2763e3151ee6b3360a.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\95\951d475c2f67e8f3dda2b32177b758e3107284af.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\9d\9df3bcec73ee8f64989f825266f48f26eab7209f.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\a6\a631c14ff7b84360815cbe181910d3e05c37f2bd.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\ab\ab25e293300048c3bac11b844a1f73e91b8b62cf.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\ac\acaa23f21bedd8e0f81c41c13de887c1c9b3b869.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\ad\ad3a839ffef921f088529fc260a0071f560aedea.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\b3\b32b8e8f21829b2239ec12cfac0f6844f001f256.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\b7\b7f432084b6eb353b258a7090adecafc46965e45.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\c6\c6e25b8ebe116d2a85a3cf75c4874076ed315d59.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\c7\c78d3e672c3360944fbfa7bc773331e9564e1930.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\c8\c80a1f320a9c63aac2630d6884927ee1433524af.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\c9\c94928b74eee3653a44399c91f75c3617b1a542c.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\d5\d5e321f91128fe239d117d9ef991ec95b83e07bc.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\db\db1d0728a08c78a324b61aa8ef8dbfddc27870fd.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\de\de2e0f833ac7835f81e74f31d8d09809451c90a4.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\e4\e40a66d2e007fe826eddc14c50b91dc6278cf8dc.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\eb\eb194e98872b555b4ecb64017b6195739275b6eb.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\ef\ef4ccc70ad79a235008adfef4fb0760a79bcc3d3.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\fa\fadb9d72d42d6b137e7e00f2098c36ea52f8c7a5.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\pristine\ff\ff643e4e1ff0034c6187169825c8a21ba5791192.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\.svn\wc.db" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/BlackOlives.java" afterPath="$PROJECT_DIR$/src/abstractfactory/BlackOlives.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/CheesePizza.java" afterPath="$PROJECT_DIR$/src/abstractfactory/CheesePizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/ChicagoPizzaIngredientFactory.java" afterPath="$PROJECT_DIR$/src/abstractfactory/ChicagoPizzaIngredientFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/ChicagoPizzaStore.java" afterPath="$PROJECT_DIR$/src/abstractfactory/ChicagoPizzaStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethod/ChicagoPizzaStore.java" afterPath="$PROJECT_DIR$/src/factorymethod/ChicagoPizzaStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethod/ChicagoStyleCheesePizza.java" afterPath="$PROJECT_DIR$/src/factorymethod/ChicagoStyleCheesePizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethod/ChicagoStyleClamPizza.java" afterPath="$PROJECT_DIR$/src/factorymethod/ChicagoStyleClamPizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethod/ChicagoStylePepperoniPizza.java" afterPath="$PROJECT_DIR$/src/factorymethod/ChicagoStylePepperoniPizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethod/ChicagoStyleVeggiePizza.java" afterPath="$PROJECT_DIR$/src/factorymethod/ChicagoStyleVeggiePizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/Eggplant.java" afterPath="$PROJECT_DIR$/src/abstractfactory/Eggplant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/FreshClams.java" afterPath="$PROJECT_DIR$/src/abstractfactory/FreshClams.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/FrozenClams.java" afterPath="$PROJECT_DIR$/src/abstractfactory/FrozenClams.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/Garlic.java" afterPath="$PROJECT_DIR$/src/abstractfactory/Garlic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/MarinaraSauce.java" afterPath="$PROJECT_DIR$/src/abstractfactory/MarinaraSauce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/MozzarellaCheese.java" afterPath="$PROJECT_DIR$/src/abstractfactory/MozzarellaCheese.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/Mushroom.java" afterPath="$PROJECT_DIR$/src/abstractfactory/Mushroom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethod/NYStyleCheesePizza.java" afterPath="$PROJECT_DIR$/src/factorymethod/NYStyleCheesePizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethod/NYStyleClamPizza.java" afterPath="$PROJECT_DIR$/src/factorymethod/NYStyleClamPizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethod/NYStylePepperoniPizza.java" afterPath="$PROJECT_DIR$/src/factorymethod/NYStylePepperoniPizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethod/NYStyleVeggiePizza.java" afterPath="$PROJECT_DIR$/src/factorymethod/NYStyleVeggiePizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/Onion.java" afterPath="$PROJECT_DIR$/src/abstractfactory/Onion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/PepperoniPizza.java" afterPath="$PROJECT_DIR$/src/abstractfactory/PepperoniPizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/PizzaIngredientFactory.java" afterPath="$PROJECT_DIR$/src/abstractfactory/PizzaIngredientFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/PlumTomatoSauce.java" afterPath="$PROJECT_DIR$/src/abstractfactory/PlumTomatoSauce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/RedPepper.java" afterPath="$PROJECT_DIR$/src/abstractfactory/RedPepper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/ReggianoCheese.java" afterPath="$PROJECT_DIR$/src/abstractfactory/ReggianoCheese.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/SlicedPepperoni.java" afterPath="$PROJECT_DIR$/src/abstractfactory/SlicedPepperoni.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/Spinach.java" afterPath="$PROJECT_DIR$/src/abstractfactory/Spinach.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/ThinCrustDough.java" afterPath="$PROJECT_DIR$/src/abstractfactory/ThinCrustDough.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abstractfactory/VeggiePizza.java" afterPath="$PROJECT_DIR$/src/abstractfactory/VeggiePizza.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../decorator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../decorator/.idea/workspace.xml" />
+    </list>
+    <ignored path="trunk.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="trunk" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="NYPizzaStore.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/abstractfactory/NYPizzaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45945945" vertical-offset="0" max-vertical-offset="663">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/factorymethod/NYStyleCheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/factorymethod/NYStyleClamPizza.java" />
+        <option value="$PROJECT_DIR$/src/factorymethod/NYStylePepperoniPizza.java" />
+        <option value="$PROJECT_DIR$/src/factorymethod/ChicagoStyleVeggiePizza.java" />
+        <option value="$PROJECT_DIR$/src/factorymethod/NYStyleVeggiePizza.java" />
+        <option value="$PROJECT_DIR$/src/factorymethod/ChicagoStylePepperoniPizza.java" />
+        <option value="$PROJECT_DIR$/src/factorymethod/ChicagoStyleClamPizza.java" />
+        <option value="$PROJECT_DIR$/src/factorymethod/ChicagoStyleCheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/factorymethod/ChicagoPizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/NYPizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/ThinCrustDough.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/MarinaraSauce.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/Garlic.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/Onion.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/Mushroom.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/RedPepper.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/FreshClams.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/SlicedPepperoni.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/ReggianoCheese.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/CheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/PepperoniPizza.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/PizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/FrozenClams.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/MozzarellaCheese.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/PlumTomatoSauce.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/BlackOlives.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/Eggplant.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/ChicagoPizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/Spinach.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/ChicagoPizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/abstractfactory/VeggiePizza.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="25" />
+    <option name="y" value="2" />
+    <option name="width" value="1325" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="2" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Abstract Factory">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Factory Method" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="factorymethod.PizzaTestDrive" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/src/factorymethod" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Factory" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Abstract Factory" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="abstractfactory.PizzaTestDrive" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/src/abstractfactory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Factory" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Factory Method" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Abstract Factory" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Jonathan\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0a69e3e-fc9c-4cee-9e9a-183c5b6f67f5" name="Default" comment="" />
+      <created>1403898578467</created>
+      <updated>1403898578467</updated>
+      <workItem from="1403898579072" duration="186000" />
+      <workItem from="1403898767424" duration="3974000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4160000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="25" y="2" width="1325" height="726" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/ChicagoStyleVeggiePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09392265" vertical-offset="0" max-vertical-offset="543">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/NYStylePepperoniPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28176796" vertical-offset="0" max-vertical-offset="543">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/NYStyleClamPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3130755" vertical-offset="0" max-vertical-offset="543">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/NYStyleCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21024735" vertical-offset="0" max-vertical-offset="566">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/NYStyleVeggiePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06007067" vertical-offset="0" max-vertical-offset="566">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/ChicagoStylePepperoniPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06007067" vertical-offset="0" max-vertical-offset="566">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/ChicagoStyleClamPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06007067" vertical-offset="0" max-vertical-offset="566">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/ChicagoStyleCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06007067" vertical-offset="0" max-vertical-offset="566">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12014134" vertical-offset="0" max-vertical-offset="816">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06007067" vertical-offset="0" max-vertical-offset="566">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/PizzaTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/PizzaTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/ThinCrustDough.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/MarinaraSauce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/Garlic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/Onion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/Mushroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/RedPepper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/FreshClams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/SlicedPepperoni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/ReggianoCheese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/ChicagoPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13544668" vertical-offset="4" max-vertical-offset="374">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethod/NYPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2334294" vertical-offset="4" max-vertical-offset="374">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14864865" vertical-offset="30" max-vertical-offset="1105">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/CheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64324325" vertical-offset="0" max-vertical-offset="391">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/PizzaIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48991355" vertical-offset="0" max-vertical-offset="347">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/FrozenClams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2939481" vertical-offset="0" max-vertical-offset="347">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/MozzarellaCheese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/PlumTomatoSauce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/BlackOlives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/Eggplant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/Spinach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/ChicagoPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.827027" vertical-offset="221" max-vertical-offset="663">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/ChicagoPizzaIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8095238" vertical-offset="221" max-vertical-offset="731">
+          <caret line="30" column="138" selection-start-line="30" selection-start-column="138" selection-end-line="30" selection-end-column="138" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/NYPizzaIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5054054" vertical-offset="0" max-vertical-offset="425">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/VeggiePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.827027" vertical-offset="0" max-vertical-offset="408">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/PepperoniPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4135135" vertical-offset="0" max-vertical-offset="374">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/ClamPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36756757" vertical-offset="0" max-vertical-offset="370">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/NYPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45945945" vertical-offset="0" max-vertical-offset="663">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Factory</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

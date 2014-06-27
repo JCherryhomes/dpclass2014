@@ -1,12 +1,18 @@
 package abstractfactory;
 
-public class VeggiePizza {
- 
-	public VeggiePizza(PizzaIngredientFactory ingredientFactory) {
-		// TODO - add required code
+public class VeggiePizza extends Pizza {
+
+    private final PizzaIngredientFactory ingredientFactory;
+
+    public VeggiePizza(PizzaIngredientFactory ingredientFactory) {
+		this.ingredientFactory = ingredientFactory;
 	}
  
 	void prepare() {
-		// TODO - implement method
+        System.out.println("Preparing " + name);
+        dough = ingredientFactory.createDough();
+        sauce = ingredientFactory.createSauce();
+        cheese = ingredientFactory.createCheese();
+        veggies = ingredientFactory.createVeggies();
 	}
 }
