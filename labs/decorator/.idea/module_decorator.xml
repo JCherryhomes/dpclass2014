@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_decorator" default="compile.module.decorator">
+  <dirname property="module.decorator.basedir" file="${ant.file.module_decorator}"/>
+  
+  <property name="module.jdk.home.decorator" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.decorator" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.decorator" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.decorator" value="-encoding UTF-8 -source 1.7 ${compiler.args}"/>
+  
+  <property name="decorator.output.dir" value="${module.decorator.basedir}/../build"/>
+  <property name="decorator.testoutput.dir" value="${module.decorator.basedir}/../test/build"/>
+  
+  <path id="decorator.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="decorator.module.production.classpath">
+    <path refid="${module.jdk.classpath.decorator}"/>
+    <path refid="library.junit:junit:4.11.classpath"/>
+  </path>
+  
+  <path id="decorator.runtime.production.module.classpath">
+    <pathelement location="${decorator.output.dir}"/>
+    <path refid="library.junit:junit:4.11.classpath"/>
+  </path>
+  
+  <path id="decorator.module.classpath">
+    <path refid="${module.jdk.classpath.decorator}"/>
+    <pathelement location="${decorator.output.dir}"/>
+    <path refid="library.junit:junit:4.11.classpath"/>
+  </path>
+  
+  <path id="decorator.runtime.module.classpath">
+    <pathelement location="${decorator.testoutput.dir}"/>
+    <pathelement location="${decorator.output.dir}"/>
+    <path refid="library.junit:junit:4.11.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.decorator">
+    <patternset refid="ignored.files"/>
+    <exclude name="build/**"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.decorator">
+    <patternset refid="excluded.from.module.decorator"/>
+  </patternset>
+  
+  <path id="decorator.module.sourcepath">
+    <dirset dir="${module.decorator.basedir}/../../decorator">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  <path id="decorator.module.test.sourcepath">
+    <dirset dir="${module.decorator.basedir}/../../decorator">
+      <include name="test"/>
+      <include name="lib"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.decorator" depends="compile.module.decorator.production,compile.module.decorator.tests" description="Compile module Decorator"/>
+  
+  <target name="compile.module.decorator.production" depends="register.custom.compilers" description="Compile module Decorator; production classes">
+    <mkdir dir="${decorator.output.dir}"/>
+    <javac2 destdir="${decorator.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.decorator}/javac">
+      <compilerarg line="${compiler.args.decorator}"/>
+      <bootclasspath refid="decorator.module.bootclasspath"/>
+      <classpath refid="decorator.module.production.classpath"/>
+      <src refid="decorator.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.decorator"/>
+    </javac2>
+    
+    <copy todir="${decorator.output.dir}">
+      <fileset dir="${module.decorator.basedir}/../src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.decorator.tests" depends="register.custom.compilers,compile.module.decorator.production" description="compile module Decorator; test classes" unless="skip.tests">
+    <mkdir dir="${decorator.testoutput.dir}"/>
+    <javac2 destdir="${decorator.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.decorator}/javac">
+      <compilerarg line="${compiler.args.decorator}"/>
+      <bootclasspath refid="decorator.module.bootclasspath"/>
+      <classpath refid="decorator.module.classpath"/>
+      <src refid="decorator.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.decorator"/>
+    </javac2>
+    
+    <copy todir="${decorator.testoutput.dir}">
+      <fileset dir="${module.decorator.basedir}/../test">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.decorator.basedir}/../lib">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.decorator" description="cleanup module">
+    <delete dir="${decorator.output.dir}"/>
+    <delete dir="${decorator.testoutput.dir}"/>
+  </target>
+</project>
