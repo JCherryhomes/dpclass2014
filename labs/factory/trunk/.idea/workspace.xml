@@ -2,55 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="b0a69e3e-fc9c-4cee-9e9a-183c5b6f67f5" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\BlackOlives.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Cheese.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\CheesePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\ChicagoPizzaIngredientFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\ChicagoPizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\ClamPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Clams.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Dough.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Eggplant.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\FreshClams.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\FrozenClams.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Garlic.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\MarinaraSauce.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\MozzarellaCheese.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Mushroom.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\NYPizzaIngredientFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\NYPizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Onion.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\ParmesanCheese.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Pepperoni.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\PepperoniPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Pizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\PizzaIngredientFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\PizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\PizzaTestDrive.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\PlumTomatoSauce.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\RedPepper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\ReggianoCheese.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Sauce.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\SlicedPepperoni.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Spinach.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\ThickCrustDough.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\ThinCrustDough.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\VeggiePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\abstractfactory\Veggies.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\ChicagoPizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\ChicagoStyleCheesePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\ChicagoStyleClamPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\ChicagoStylePepperoniPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\ChicagoStyleVeggiePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\NYPizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\NYStyleCheesePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\NYStyleClamPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\NYStylePepperoniPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\NYStyleVeggiePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\Pizza.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\PizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\build\factorymethod\PizzaTestDrive.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../decorator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../decorator/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\trunk.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="trunk.iws" />
@@ -84,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trunk.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trunk.xml">
+      <file leaf-file-name="trunk.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trunk.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.09189189" vertical-offset="0" max-vertical-offset="370">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -139,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/abstractfactory/Spinach.java" />
         <option value="$PROJECT_DIR$/src/abstractfactory/ChicagoPizzaStore.java" />
         <option value="$PROJECT_DIR$/src/abstractfactory/VeggiePizza.java" />
+        <option value="$PROJECT_DIR$/trunk.xml" />
       </list>
     </option>
   </component>
@@ -174,7 +129,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -210,6 +164,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +175,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
@@ -241,8 +196,11 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="trunk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/trunk.xml" />
     <property name="FullScreen" value="false" />
+    <property name="Downloaded.Files.Path" value="C:\Users\Jonathan\Documents\GitHub\dpclass2014\labs\factory\trunk\lib" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Abstract Factory">
+  <component name="RunManager" selected="Application.Factory Method">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -512,15 +470,16 @@
       <workItem from="1403898579072" duration="186000" />
       <workItem from="1403898767424" duration="3974000" />
       <workItem from="1403903539849" duration="117000" />
+      <workItem from="1403961532017" duration="1207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4277000" />
+    <option name="totallyTimeSpent" value="5484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="2" width="1325" height="726" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -528,27 +487,55 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -572,11 +559,16 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-    <buildFile url="file://$PROJECT_DIR$/trunk.xml">
-      <expanded value="true" />
-    </buildFile>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/NYPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/abstractfactory/NYPizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="663">
@@ -862,10 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trunk.xml">
+    <entry file="file://$PROJECT_DIR$/trunk.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.09189189" vertical-offset="0" max-vertical-offset="370">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="47" />
           <folding />
         </state>
       </provider>
