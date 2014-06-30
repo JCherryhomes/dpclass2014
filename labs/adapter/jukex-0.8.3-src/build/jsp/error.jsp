@@ -14,18 +14,22 @@
 --%>
 <%@page language="java" %>
 <%@page import="com.neoworks.jukex.client.html.standard.*" %>
-<%@page errorPage="error.jsp" %>
+<%@page import="java.io.*" %>
+<%@page isErrorPage="true" %>
 
-<%
-	String contextRootURL = request.getContextPath() + "/";
-%>
 <html>
-<head><title>JukeX</title></head
-<frameset cols="165,*" frameborder="no">
-	<frame name="left" src="<%=contextRootURL%>servlet/JukeX?view=left">
-	<frame name="right" src="<%=contextRootURL%>servlet/JukeX?view=right">
-	<noframes>
-		Oh dear, this client doesn't support frames. :(
-	</noframes>
-</frameset>
+<head><title>JukeX Error</title></head>
+<body>
+<center><h1>JukeX Error</h1></center>
+<b><%= exception.getMessage() %></b><br>
+<p>With the following stack trace:
+
+<pre>
+<% 
+	ByteArrayOutputStream baos = new ByteArrayOutputStream();
+	exception.printStackTrace(new PrintStream(baos));
+	out.print(baos);
+%>
+</b></pre>
+</body>
 </html>

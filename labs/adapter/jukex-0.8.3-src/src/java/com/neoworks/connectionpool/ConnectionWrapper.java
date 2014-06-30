@@ -11,10 +11,11 @@ URL                : http://www.neoworks.com
  *                                                                         *
  ***************************************************************************/
 
-package com.neoworks.connectionpool;
+package java.com.neoworks.connectionpool;
 
 import java.sql.*;
 import java.util.*;
+import java.util.concurrent.Executor;
 
 import org.apache.log4j.Category;
 
@@ -77,6 +78,8 @@ class ConnectionWrapper implements Connection
    */
   public void close() throws SQLException
   {
+      pool.wrapperClosed(realConn);
+      isClosed = true;
   }
 
   /**
@@ -220,7 +223,32 @@ class ConnectionWrapper implements Connection
     return realConn.prepareStatement(sql, columnNames);
   }
 
-  public PreparedStatement prepareStatement(String sql, int resultSetType, int resultSetConcurrency) throws SQLException
+    @Override
+    public Clob createClob() throws SQLException {
+        return realConn.createClob();
+    }
+
+    @Override
+    public Blob createBlob() throws SQLException {
+        return realConn.createBlob();
+    }
+
+    @Override
+    public NClob createNClob() throws SQLException {
+        return realConn.createNClob();
+    }
+
+    @Override
+    public SQLXML createSQLXML() throws SQLException {
+        return null;
+    }
+
+    @Override
+    public boolean isValid(int timeout) throws SQLException {
+        return false;
+    }
+
+    public PreparedStatement prepareStatement(String sql, int resultSetType, int resultSetConcurrency) throws SQLException
   {
     handleIsClosed();
     return realConn.prepareStatement(sql, resultSetType, resultSetConcurrency);
@@ -336,10 +364,65 @@ class ConnectionWrapper implements Connection
     realConn.setClientInfo(properties);
   }
 
-  public String toString()
+    @Override
+    public String getClientInfo(String name) throws SQLException {
+        return null;
+    }
+
+    @Override
+    public Properties getClientInfo() throws SQLException {
+        return null;
+    }
+
+    @Override
+    public Array createArrayOf(String typeName, Object[] elements) throws SQLException {
+        return null;
+    }
+
+    @Override
+    public Struct createStruct(String typeName, Object[] attributes) throws SQLException {
+        return null;
+    }
+
+    @Override
+    public void setSchema(String schema) throws SQLException {
+
+    }
+
+    @Override
+    public String getSchema() throws SQLException {
+        return null;
+    }
+
+    @Override
+    public void abort(Executor executor) throws SQLException {
+
+    }
+
+    @Override
+    public void setNetworkTimeout(Executor executor, int milliseconds) throws SQLException {
+
+    }
+
+    @Override
+    public int getNetworkTimeout() throws SQLException {
+        return 0;
+    }
+
+    public String toString()
   {
     return ( "ConnectionWrapper with real connection ["+this.realConn+"] from pool ["+this.pool+"]" );
   }
 
-  // TODO add necessary methods to implement the java.sql.Connection;
+    @Override
+    public <T> T unwrap(Class<T> iface) throws SQLException {
+        return null;
+    }
+
+    @Override
+    public boolean isWrapperFor(Class<?> iface) throws SQLException {
+        return false;
+    }
+
+    // TODO add necessary methods to implement the java.sql.Connection;
 }

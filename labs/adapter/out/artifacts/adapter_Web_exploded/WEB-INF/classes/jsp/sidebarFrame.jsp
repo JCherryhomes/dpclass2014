@@ -20,10 +20,10 @@
 	String contextRootURL = request.getContextPath() + "/";
 %>
 <html>
-<head><title>JukeX</title></head
-<frameset cols="165,*" frameborder="no">
-	<frame name="left" src="<%=contextRootURL%>servlet/JukeX?view=left">
-	<frame name="right" src="<%=contextRootURL%>servlet/JukeX?view=right">
+<head><title>JukeX</title></head>
+<frameset rows="*,215" frameborder="no">
+	<frame name="topsidebar" src="<%=contextRootURL%>servlet/JukeX?view=topsidebar">
+	<frame name="bottomsidebar" src="<%=contextRootURL%>servlet/JukeX?view=bottomsidebar">
 	<noframes>
 		Oh dear, this client doesn't support frames. :(
 	</noframes>

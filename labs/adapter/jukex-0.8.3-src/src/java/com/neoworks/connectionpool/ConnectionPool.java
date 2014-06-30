@@ -11,7 +11,7 @@
  *                                                                         *
  ***************************************************************************/
 
-package com.neoworks.connectionpool;
+package java.com.neoworks.connectionpool;
 
 import java.sql.*;
 import java.util.*;
