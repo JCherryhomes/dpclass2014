@@ -1,6 +1,14 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="web artifact">
     <output-path>$PROJECT_DIR$/out/artifacts/web_artifact</output-path>
-    <root id="root" />
+    <root id="root">
+      <element id="dir-copy" path="$PROJECT_DIR$/jukex-0.8.3-src/src/jsp" />
+      <element id="javaee-facet-resources" facet="adapter/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="adapter" />
+        </element>
+      </element>
+    </root>
   </artifact>
 </component>

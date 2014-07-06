@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="neoworks">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/jukex-0.8.3-src/build/neoworks" />
+    </SOURCES>
+  </library>
+</component>
