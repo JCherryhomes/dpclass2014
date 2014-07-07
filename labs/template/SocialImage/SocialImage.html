@@ -122,12 +122,16 @@
         }
 
         AdvancedDrawer.prototype.resizeImages = function(id, which) {
+            var area = 0;
+            var remainingArea = 0;
+
             for (var i = 0; i < divs.length; i++) {
                 var imgs = divs[i].getElementsByTagName("img");
                 var height = imgs[0].height;
                 var width = imgs[0].width;
 
                 if (divs[i].id == id) {
+                    var area = height*width;
                     if (which == 1) {
                         imgs[0].setAttribute("width", width * 1.1);
                         imgs[0].setAttribute("height", height * 1.1);
@@ -135,7 +139,26 @@
                         imgs[0].setAttribute("width", width * 0.9);
                         imgs[0].setAttribute("height", height * 0.9);
                     }
+                } else {
+                    remainingArea = remainingArea + (height * width);
                 }
+            }
+
+            var newArea = remainingArea - (.1 * area);
+
+            while (newArea < 0) {
+                for (var i = 0; i < divs.length; i++) {
+                    var imgs = divs[i].getElementsByTagName("img");
+                    var height = imgs[0].height;
+                    var width = imgs[0].width;
+
+                    if (divs[i].id == id) {
+                        continue;
+                    } else {
+                        remainingArea = remainingArea + (height * width);
+                    }
+                }
+                newArea = remainingArea - (.1 * area);
             }
         }
 
@@ -166,8 +189,8 @@
                         isTooBigImgs = true;
                         break;
                     }
-                    divs[i].style.top = Math.round(topPos) + "px";
-                    divs[i].style.left = Math.round(leftPos) + "px";
+                    divs[i].style.top = Math.round(topPos - height) + "px";
+                    divs[i].style.left = Math.round(leftPos - width) + "px";
                     leftPos += width;
                     if (height > rowHeight) {
                         rowHeight = height;
