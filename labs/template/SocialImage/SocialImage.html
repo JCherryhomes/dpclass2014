@@ -122,48 +122,134 @@
         }
 
         AdvancedDrawer.prototype.resizeImages = function(id, which) {
+            for (var i = 0; i < divs.length; i++) {
+                var imgs = divs[i].getElementsByTagName("img");
+                var height = imgs[0].height;
+                var width = imgs[0].width;
 
-            var heightAmount = 0;
-            var widthAmount = 0;
-            var decreaseHeightAmount = 0;
-            var decreaseWidthAmount = 0;
-
-            divs.forEach(function(d){
-                if (d.id == id){
-                    var mainImg = d.getElementsByTagName("img");
-                    console.log(mainImg.height);
-                    heightAmount = mainImg.height * 1.1;
-                    widthAmount = mainImg.width * 1.1;
-                    decreaseHeightAmount = heightAmount * divs.length - 1;
-                    decreaseWidthAmount = widthAmount * divs.length - 1;
-                }
-            });
-
-            console.log(heightAmount);
-
-            for (var index in divs){
-                var div = divs[index];
-                var img = div.getElementsByTagName("img")[0];
-
-                if (div.id == id){
-                    img.height = img.height + heightAmount;
-                    img.width = img.width + widthAmount;
-                }
-                else {
-                    img.height = img.height - decreaseHeightAmount;
-                    img.width = img.width - decreaseWidthAmount;
+                if (divs[i].id == id) {
+                    if (which == 1) {
+                        imgs[0].setAttribute("width", width * 1.1);
+                        imgs[0].setAttribute("height", height * 1.1);
+                    } else {
+                        imgs[0].setAttribute("width", width * 0.9);
+                        imgs[0].setAttribute("height", height * 0.9);
+                    }
                 }
             }
         }
 
 
-        AdvancedDrawer.prototype.placeImages = function() {}
+        AdvancedDrawer.prototype.placeImages = function() {
+            divs.sort(sortImgBySize);
+
+            var isTooBigImgs = true;
+            while(isTooBigImgs) {
+                var topPos = maxHeight/2;
+                var leftPos = maxWidth/2;
+                isTooBigImgs = false;
+                var rowHeight = 0;
+                for (var i = 0; i < divs.length; i++) {
+                    var imgs = divs[i].getElementsByTagName("img");
+                    var height = imgs[0].height;
+                    var width = imgs[0].width;
+                    if (width > maxWidth) {
+                        isTooBigImgs = true;
+                        break;
+                    }
+                    if (leftPos + width > maxWidth) {
+                        topPos += rowHeight;
+                        leftPos = 0;
+                        rowHeight = 0;
+                    }
+                    if ((topPos + height - 100) > maxHeight) {
+                        isTooBigImgs = true;
+                        break;
+                    }
+                    divs[i].style.top = Math.round(topPos) + "px";
+                    divs[i].style.left = Math.round(leftPos) + "px";
+                    leftPos += width;
+                    if (height > rowHeight) {
+                        rowHeight = height;
+                    }
+                }
+
+                if (isTooBigImgs) {
+                    for (var i = 0; i < divs.length; i++) {
+                        var imgs = divs[i].getElementsByTagName("img");
+                        var height = imgs[0].height;
+                        var width = imgs[0].width;
+                        imgs[0].setAttribute("width", width * 0.95);
+                        imgs[0].setAttribute("height", height * 0.95);
+                    }
+                }
+            }
+        }
 
 
         function PersonalDrawer() {}
         PersonalDrawer.prototype.resizeImages = function(id, which) {
+            for (var i = 0; i < divs.length; i++) {
+                var imgs = divs[i].getElementsByTagName("img");
+                var height = imgs[0].height;
+                var width = imgs[0].width;
+
+                if (divs[i].id == id) {
+                    if (which == 1) {
+                        imgs[0].setAttribute("width", width * 1.1);
+                        imgs[0].setAttribute("height", height * 1.1);
+                    } else {
+                        imgs[0].setAttribute("width", width * 0.9);
+                        imgs[0].setAttribute("height", height * 0.9);
+                    }
+                }
+            }
         }
+
         PersonalDrawer.prototype.placeImages = function() {
+            divs.sort(sortImgByID);
+
+            var isTooBigImgs = true;
+            while(isTooBigImgs) {
+                var topPos = 100;
+                var leftPos = 0;
+                isTooBigImgs = false;
+                var rowHeight = 0;
+                for (var i = 0; i < divs.length; i++) {
+                    var imgs = divs[i].getElementsByTagName("img");
+                    var height = imgs[0].height;
+                    var width = imgs[0].width;
+                    if (width > maxWidth) {
+                        isTooBigImgs = true;
+                        break;
+                    }
+                    if (leftPos + width > maxWidth) {
+                        topPos += rowHeight;
+                        leftPos = 0;
+                        rowHeight = 0;
+                    }
+                    if ((topPos + height - 100) > maxHeight) {
+                        isTooBigImgs = true;
+                        break;
+                    }
+                    divs[i].style.top = Math.round(topPos) + "px";
+                    divs[i].style.left = Math.round(leftPos) + "px";
+                    leftPos += width;
+                    if (height > rowHeight) {
+                        rowHeight = height;
+                    }
+                }
+
+                if (isTooBigImgs) {
+                    for (var i = 0; i < divs.length; i++) {
+                        var imgs = divs[i].getElementsByTagName("img");
+                        var height = imgs[0].height;
+                        var width = imgs[0].width;
+                        imgs[0].setAttribute("width", width * 0.95);
+                        imgs[0].setAttribute("height", height * 0.95);
+                    }
+                }
+            }
         }
 
         function redraw(id, which) {
