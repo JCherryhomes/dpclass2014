@@ -40,7 +40,7 @@ public class TestCustomIterator{
 
    assertEquals(berkeleyIterator.next().toString(), "Aardvark Smith,3.5,18,Berkeley");
    assertEquals(berkeleyIterator.next().toString(), "Matt Biondi,3.3,22,Berkeley");
-   assertFalse(berkeleyIterator.hasNext() );
+   assertFalse(berkeleyIterator.hasNext());
 
     
   }
