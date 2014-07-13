@@ -55,6 +55,9 @@ public class CustomIterator {
 
         @Override
         public Student next() {
+            if(index >= studentsArray.size())
+                throw new NoSuchElementException();
+
             return studentsArray.get(index++);
         }
 
@@ -90,6 +93,9 @@ public class CustomIterator {
 
         @Override
         public Student next() {
+            if(index >= studentsArray.size())
+                throw new NoSuchElementException();
+
             return studentsArray.get(index++);
         }
 
