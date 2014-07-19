@@ -1,0 +1,21 @@
+/**
+ * Created by Jonathan on 7/19/2014.
+ */
+public class RegularPrice extends Price {
+
+    @Override
+    public double getCharge(int daysRented) {
+        double result = 2.0;
+
+        if (daysRented > 2) {
+            result += (daysRented - 2) * 1.5;
+        }
+
+        return result;
+    }
+
+    @Override
+    public int getPriceCode() {
+        return Movie.REGULAR;
+    }
+}
