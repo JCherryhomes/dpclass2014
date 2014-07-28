@@ -28,7 +28,11 @@ public class SudokuServer {
         Runnable serverThread = new ThreadedSudokuServer();
         Thread t = new Thread(serverThread);
         System.out.println("Server running on port " + PORT);
-        t.start();
+
+        if (runningCache.size() < MAXPARALLELTHREADS) {
+            runningCache.add(t);
+            t.start();
+        }
     }
 }
 
