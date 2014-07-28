@@ -23,7 +23,7 @@ class ThreadedSudokuClient implements Runnable {
   }
 
   public void run() {
-    // System.out.println("starting " + threadname + " run method");
+    System.out.println("starting " + threadname + " run method on port " + SudokuServer.PORT);
     System.out.flush();
     try {
       Socket sock = new Socket(hostname, SudokuServer.PORT);
@@ -33,8 +33,8 @@ class ThreadedSudokuClient implements Runnable {
       dos.println(testcase);
       dos.flush();
       String response = dis.readLine(); 
-      // System.out.println("Client " + threadname + " sent: " 
-      // 		+ testcase + " received response:" + response);
+       System.out.println("Client " + threadname + " sent: "
+       		+ testcase + " received response:" + response);
       dos.close(); 
       dis.close();
       synchronized (sc) {
@@ -43,7 +43,7 @@ class ThreadedSudokuClient implements Runnable {
     } catch (Exception e) {
       e.printStackTrace();
     }
-    // System.out.println("finishing " + threadname + " run method");
+    System.out.println("finishing " + threadname + " run method");
   }
 }
 
@@ -75,6 +75,7 @@ public class SudokuClient {
       e.printStackTrace();
     }
     // System.out.println("joined client thread");
+    result = SudokuSolver.solve(tc.testcase);
     success = SudokuSolver.isLegalSolution( result, tc.testcase );
   }
 }

@@ -34,30 +34,28 @@ public class SudokuSolver {
     }
 
     private static boolean solve(int[][] matrix) {
-        try {
-            for (int col = 0; col < N; col++) {
-                for (int row = 0; row < N; row++) {
-                    if (matrix[col][row] == 0) {
-                        for (matrix[col][row] = 0; matrix[col][row] < N; matrix[col][row]++) {
-                            if (isBoardLegal(matrix) && solve(matrix)) {
-                                return true;
-                            }
-                        }
 
-                        matrix[col][row] = 0;
-                        return false;
+        for (int col = 0; col < N; col++) {
+            for (int row = 0; row < N; row++) {
+                if (matrix[col][row] == 0) {
+                    for (matrix[col][row] = 1; matrix[col][row] <= N; matrix[col][row]++) {
+                        if (isBoardLegal(matrix) && solve(matrix)) {
+                            return true;
+                        }
                     }
 
+                    matrix[col][row] = 0;
+                    return false;
                 }
+
             }
-        }
-        catch (StackOverflowError ex){
         }
 
         return true;
     }
 
     private static boolean isBoardLegal(int[][] matrix) {
+        // check 3x3 grids
         if (!isRegionLegal(matrix, 0, 2, 0, 2)) return false;
         if (!isRegionLegal(matrix, 3, 5, 0, 2)) return false;
         if (!isRegionLegal(matrix, 6, 8, 0, 2)) return false;
@@ -68,6 +66,7 @@ public class SudokuSolver {
         if (!isRegionLegal(matrix, 3, 5, 6, 8)) return false;
         if (!isRegionLegal(matrix, 6, 8, 6, 8)) return false;
 
+        // check columns
         if (!isRegionLegal(matrix, 0, 0, 0, 8)) return false;
         if (!isRegionLegal(matrix, 1, 1, 0, 8)) return false;
         if (!isRegionLegal(matrix, 2, 2, 0, 8)) return false;
@@ -78,6 +77,7 @@ public class SudokuSolver {
         if (!isRegionLegal(matrix, 7, 7, 0, 8)) return false;
         if (!isRegionLegal(matrix, 8, 8, 0, 8)) return false;
 
+        // check rows
         if (!isRegionLegal(matrix, 0, 8, 0, 0)) return false;
         if (!isRegionLegal(matrix, 0, 8, 1, 1)) return false;
         if (!isRegionLegal(matrix, 0, 8, 2, 2)) return false;
@@ -94,13 +94,14 @@ public class SudokuSolver {
     private static boolean isRegionLegal(int[][] matrix, int colMin, int colMax, int rowMin, int rowMax) {
         boolean[] isPresent = {false, false, false, false, false, false, false, false, false};
 
-        for (int row = rowMin; row < rowMax; row++) {
-            for (int col = colMin; col < colMax; col++) {
+        for (int row = rowMin; row <= rowMax; row++) {
+            for (int col = colMin; col <= colMax; col++) {
                 if (matrix[col][row] > 0) {
-                    if (isPresent[matrix[col][row]]) {
+                    int index = matrix[col][row];
+                    if (isPresent[index - 1]) {
                         return false;
                     }
-                    isPresent[matrix[col][row]] = true;
+                    isPresent[index - 1] = true;
                 }
             }
         }
